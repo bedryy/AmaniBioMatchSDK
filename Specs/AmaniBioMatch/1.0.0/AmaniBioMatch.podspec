@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Amani-BioMatch"
   s.description  = "The Amani Software Development kit (SDK) provides you complete steps to perform bio match"
-  s.homepage     = "https://github.com/bedryy/AmaniBioMatch.git"
+  s.homepage     = "https://github.com/bedryy/AmaniBioMatchSDK.git"
   s.license      = "Copyright"
   s.author       = "bedryy"
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
   s.source = { 
-    "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.0/AmaniBioMatch.xcframework.zip",
+    "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/v1.0.0/AmaniBioMatch.xcframework.zip",
     :sha256 => "45630256533526d6dbc2e6f71c58910b66b31d06890115ca5c31bdbe86a8f80b" 
   }
   s.source_files = "AmaniBioMatch/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
