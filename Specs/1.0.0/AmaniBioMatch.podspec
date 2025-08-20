@@ -1,0 +1,35 @@
+#
+#  Be sure to run `pod spec lint AmaniBioMatch.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
+#
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#
+
+Pod::Spec.new do |s|
+
+
+  s.name         = "AmaniBioMatch"
+  s.version      = "1.0.0"
+  s.summary      = "Amani-BioMatch"
+  s.description  = "The Amani Software Development kit (SDK) provides you complete steps to perform bio match"
+  s.homepage     = "https://github.com/bedryy/AmaniBioMatch.git"
+  s.license      = "Copyright"
+  s.author       = "bedryy"
+  s.swift_version = '5.2'
+  s.platform     = :ios, "13.0"
+  s.source = { 
+    "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.0/AmaniBioMatch.xcframework.zip",
+    :sha256 => "45630256533526d6dbc2e6f71c58910b66b31d06890115ca5c31bdbe86a8f80b" 
+  }
+  s.source_files = "AmaniBioMatch/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
+  s.resources    = "AmaniBioMatch/**/Assets/**/*.*"
+  s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
+  s.ios.deployment_target = '13.0'
+
+  # Binary XCFramework
+  s.vendored_frameworks = "AmaniBioMatch.xcframework"
+
+  
+
+end
