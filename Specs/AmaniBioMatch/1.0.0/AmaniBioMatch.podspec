@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source = { 
     "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.0/AmaniBioMatch.xcframework.zip",
-    :sha256 => "83e9c992b482c6e03dacec3571b410b4b3bbaef36a9e48d60ef28e02f1314426" 
+    :sha256 => "efc2f438d533833fa2ea101d704f657c414993511fb0b26fbbe744c915bdaab0" 
   }
   s.source_files = "AmaniBioMatch/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
   s.resources    = "AmaniBioMatch/**/Assets/**/*.*"
