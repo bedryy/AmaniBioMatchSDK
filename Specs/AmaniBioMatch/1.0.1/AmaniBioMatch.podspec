@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AmaniBioMatch"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Amani-BioMatch"
   s.description  = "The Amani Software Development kit (SDK) provides you complete steps to perform bio match"
   s.homepage     = "https://github.com/bedryy/AmaniBioMatchSDK.git"
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
   s.platform     = :ios, "13.0"
   s.source = { 
-    "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.0/AmaniBioMatch.xcframework.zip",
-    :sha256 => "efc2f438d533833fa2ea101d704f657c414993511fb0b26fbbe744c915bdaab0" 
+    "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.1/AmaniBioMatch.xcframework.zip",
+    :sha256 => "e6dc0d266ee97fe805b46f1ac05986f410a27136336479fa1bec11bb7dbfe1aa" 
   }
   s.source_files = "AmaniBioMatch/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
   s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
