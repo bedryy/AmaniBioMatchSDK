@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source = { 
     "http" => "https://github.com/bedryy/AmaniBioMatchSDK/releases/download/1.0.1/AmaniBioMatch.xcframework.zip",
-    :sha256 => "4dcf7dd407d929e5fd564baf59bdd213cd62ab9afa5fe3a29a041b7faa74bfc6" 
+    :sha256 => "c0633918ccb0ce31b84cc1ec74833c536ceb809a605ebd4d69281de4853831db" 
   }
   s.source_files = "AmaniBioMatch/**/*.{h,m,swift,xib,mlpackage,mlmodel}"
   s.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit'}
